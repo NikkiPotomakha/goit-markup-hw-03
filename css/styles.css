@@ -7,10 +7,25 @@
   --ocean: #404bbf;
   --cornflower: #e7e9fc;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 .body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
+}
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin-left: 141px;
+  margin-right: 141px;
+  margin: 0 auto;
 }
 .link {
   text-decoration: none;
