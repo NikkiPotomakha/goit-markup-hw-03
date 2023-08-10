@@ -20,12 +20,20 @@
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
+.header .container {
+  display: flex;
+}
 .container {
   max-width: 1158px;
   padding: 0 15px;
   margin-left: 141px;
   margin-right: 141px;
   margin: 0 auto;
+}
+.header .nav {
+  display: flex;
+  align-items: center;
+  margin-right: 332px;
 }
 .link {
   text-decoration: none;
