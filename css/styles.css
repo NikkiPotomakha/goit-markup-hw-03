@@ -17,27 +17,6 @@
   color: #434455;
   background-color: #ffffff;
 }
-.header {
-  border-bottom: 1px solid #e7e9fc;
-}
-.header .container {
-  display: flex;
-}
-.container {
-  max-width: 1158px;
-  padding: 0 15px;
-  margin-left: 141px;
-  margin-right: 141px;
-  margin: 0 auto;
-}
-.header .nav {
-  display: flex;
-  align-items: center;
-  margin-right: 332px;
-}
-.web {
-  margin-right: 76px;
-}
 .link {
   text-decoration: none;
 }
@@ -77,12 +56,6 @@
 .nav-menu-link {
   text-decoration: none;
 }
-.nav .list,
-.address .list {
-  display: flex;
-  gap: 40px;
-  padding: 24px 0;
-}
 .nav-menu:hover,
 .nav-menu:focus {
   color: #404bbf;
@@ -101,6 +74,19 @@
 .contact-list:focus {
   color: #404bbf;
 }
+.filter-item .link {
+  color: var(--iris);
+  background-color: var(--cloud);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid var(--white);
+  border-radius: 4px;
+}
 .button {
   color: #ffffff;
   font-family: "Roboto", sans-serif;
@@ -116,7 +102,7 @@
 .button:focus {
   background-color: #404bbf;
 }
-.btn {
+.filter-list {
   list-style: none;
   text-decoration: none;
 }
@@ -182,7 +168,7 @@
   letter-spacing: 0.02em;
   text-align: center;
 }
-.scn_one {
+.dark-section {
   background-color: #2e2f42;
 }
 .tittle {
@@ -224,4 +210,87 @@
 }
 .ftr {
   background-color: #2e2f42;
+}
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header .container {
+  display: flex;
+}
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin-left: 141px;
+  margin-right: 141px;
+  margin: 0 auto;
+}
+.hero {
+  width: 1158px;
+  height: 600px;
+  margin: 0 auto;
+}
+.ttl_one {
+  max-width: 496px;
+  height: 120px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
+.header .nav {
+  display: flex;
+  align-items: center;
+  margin-right: 332px;
+}
+.web {
+  margin-right: 76px;
+}
+.nav .list,
+.address .list {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
+}
+.portfolio-section {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+.portfolio-section .filter-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 48px;
+}
+.portfolio-section .list {
+  justify-content: center;
+  margin-bottom: 72px;
+  border: 10px solid red;
+}
+.filter-list {
+  margin-bottom: 72px;
+  list-style-type: none;
+}
+.filter-list .filter-item {
+  margin-right: 24px;
+}
+.filter-list .filter-item:last-child {
+  margin-right: 0;
+}
+.filter-item {
+  display: flex;
+  justify-content: center;
+}
+.filter-item .link:hover,
+.filter-item .link:focus,
+.filter-item .link:active {
+  color: var(--cornflower);
+  background-color: var(--iris);
+  border: 1px solid transparent;
+}
+.collage {
+  width: calc((100% -48px) / 3);
+}
+.portfolio-section .collage-about {
+  padding: 32px 16px;
+  border: 1px solid var(--cloud);
+  border-top: none;
 }
