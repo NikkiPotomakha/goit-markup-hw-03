@@ -44,6 +44,11 @@
   align-items: center;
   margin-right: 332px;
 }
+.nav {
+  width: 153px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
 
 .link {
   text-decoration: none;
@@ -109,11 +114,18 @@
 .contact-list:focus {
   color: #404bbf;
 }
+
 .main {
   width: 1440px;
   height: 2592px;
   background-color: #ffffff;
   flex-grow: 1;
+}
+
+.main-portfolio {
+  width: 1440px;
+  height: 2076px;
+  background-color: #ffffff;
 }
 
 .button {
@@ -151,7 +163,14 @@
   align-items: flex-start;
   gap: 8px;
 }
-
+.ttl {
+  display: flex;
+  width: 264px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+}
 .text-list {
   display: flex;
   flex-direction: row;
@@ -184,7 +203,7 @@
   background-color: var(--cloud);
   padding-top: 120px;
 }
-.prof-list {
+.team-card {
   display: inline-flex;
   padding-bottom: 0px;
   justify-content: center;
@@ -195,13 +214,37 @@
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
-.prof-list {
-  background-color: var(--cloud);
+.team-card {
+  background-color: var(--white);
   width: ((100% - 72px) / 4);
   list-style: none;
   flex-direction: row;
 }
-.text {
+.prof-name {
+  color: var(--navy-blue);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  display: flex;
+  width: 232px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.text-spot {
+  color: var(--slate);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-top: 8px;
   display: flex;
   width: 232px;
   flex-direction: column;
@@ -328,6 +371,15 @@
   width: calc((100% -48px) / 3);
   list-style: none;
 }
+.card-content {
+  display: flex;
+  padding: 0px 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
 
 .list {
   list-style: none;
@@ -340,15 +392,9 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  width: 290px;
 }
-.ttl {
-  display: flex;
-  width: 232px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-}
+
 .text {
   color: var(--slate);
   font-family: "Roboto", sans-serif;
