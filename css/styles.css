@@ -161,11 +161,11 @@
 .button {
   min-width: 169px;
   height: 56px;
+  border: none;
   padding: 16px 32px;
   margin-right: auto;
   margin-left: auto;
   display: block;
-  border: none;
   align-items: flex-start;
   gap: 10px;
   border-radius: 4px;
