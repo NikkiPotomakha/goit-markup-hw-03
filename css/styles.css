@@ -293,8 +293,12 @@
 .team-card {
   background-color: var(--white);
   width: ((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
   list-style: none;
   flex-direction: row;
+}
+.card-description {
+  padding: 32px 0;
 }
 .prof-name {
   color: var(--navy-blue);
@@ -303,6 +307,7 @@
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
   margin-bottom: 8px;
   display: flex;
   width: 232px;
@@ -319,6 +324,7 @@
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
   margin-top: 8px;
   display: flex;
   width: 232px;
