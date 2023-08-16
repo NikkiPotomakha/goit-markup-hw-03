@@ -451,18 +451,10 @@
   width: calc((100% - 48px) / 3);
 }
 .card-link {
-  display: flex;
-  width: 360px;
-  height: 420px;
-  padding-bottom: 0px;
-  flex-direction: column;
-  align-items: flex-start;
-  border: 1px solid var(--cornflower);
-  background-color: var(--white);
   list-style: none;
 }
 .card-content {
-  padding: 36px 16px;
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
