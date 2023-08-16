@@ -445,7 +445,8 @@ img {
   margin-left: 156px;
 }
 .card-link {
-  width: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 24px * 2) / 3);
+  background: var(--white);
 }
 .card-link:nth-child(3n) {
   margin-right: 0;
