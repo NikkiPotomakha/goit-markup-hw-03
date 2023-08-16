@@ -462,16 +462,10 @@
   list-style: none;
 }
 .card-content {
-  display: flex;
   padding: 36px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 8px;
-  align-self: stretch;
 }
 .ttl {
   color: var(--navy-blue);
