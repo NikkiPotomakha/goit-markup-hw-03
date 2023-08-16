@@ -408,10 +408,6 @@
   color: var(--cornflower);
   background-color: var(--iris);
 }
-.filter-item .link:hover,
-.filter-item .link:focus {
-  border: 1px solid transparent;
-}
 .filter-list {
   list-style: none;
   text-decoration: none;
@@ -430,6 +426,7 @@
 .filter-btn:focus {
   background-color: #404bbf;
   color: #ffffff;
+  border: 1px solid transparent;
 }
 .filter-btn:active {
   background-color: #404bbf;
