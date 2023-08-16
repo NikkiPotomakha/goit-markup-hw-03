@@ -132,6 +132,7 @@
 }
 .dark-section {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .hero {
   width: 1440px;
@@ -159,11 +160,12 @@
 }
 .button {
   min-width: 169px;
+  height: 56px;
   padding: 16px 32px;
-  margin-top: 56px;
   margin-right: auto;
   margin-left: auto;
   display: block;
+  border: none;
   align-items: flex-start;
   gap: 10px;
   border-radius: 4px;
@@ -186,6 +188,23 @@
 }
 
 /* Second section */
+
+.text-section {
+  padding: 120px 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .text-list {
   display: flex;
