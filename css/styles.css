@@ -13,13 +13,6 @@
 *::after {
   box-sizing: border-box;
 }
-
-.container {
-  max-width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
 .body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -37,6 +30,12 @@
 
 .header .container {
   display: flex;
+}
+
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .header .nav {
@@ -91,6 +90,7 @@
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .nav-menu-link {
   text-decoration: none;
