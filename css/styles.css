@@ -441,8 +441,8 @@ img {
   column-gap: 24px;
   row-gap: 48px;
   padding: 0 auto;
+  margin: 0 auto;
   list-style: none;
-  margin-left: 156px;
 }
 .card-list {
   flex-basis: calc((100% - 48px) / 3);
