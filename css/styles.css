@@ -18,7 +18,12 @@
   color: #434455;
   background-color: #ffffff;
 }
+.tech-item img {
+  display: block;
+}
+
 /* Header section */
+
 .header {
   display: flex;
   width: 1440px;
