@@ -280,11 +280,11 @@
   padding: 120px 0;
 }
 .team-card {
-  display: inline-flex;
+  display: flex;
   padding-bottom: 0px;
   justify-content: center;
   align-items: center;
-  gap: 32px;
+  gap: 24px;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
