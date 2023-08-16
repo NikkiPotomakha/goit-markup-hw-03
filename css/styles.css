@@ -49,10 +49,13 @@
   margin-right: 332px;
 }
 
-.img {
+img {
   display: block;
 }
-
+.img-snippet {
+  background: url(<path-to-image>),
+    lightgray -72.845px -19px / 144.444% 112.667% no-repeat;
+}
 .link {
   text-decoration: none;
 }
