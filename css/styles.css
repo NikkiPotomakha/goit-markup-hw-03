@@ -407,6 +407,9 @@
 .filter-item .link:active {
   color: var(--cornflower);
   background-color: var(--iris);
+}
+.filter-item .link:hover,
+.filter-item .link:focus {
   border: 1px solid transparent;
 }
 .filter-list {
