@@ -22,6 +22,22 @@
   display: block;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
 /* Header section */
 
 .header {
@@ -87,7 +103,6 @@ img {
 .nav .list,
 .address .list {
   display: flex;
-  padding: 24px 0;
   gap: 40px;
 }
 .nav-menu {
@@ -112,6 +127,8 @@ img {
   color: var(--slate);
   font-size: 16px;
   font-style: normal;
+  padding: 24px 0;
+  display: block;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -132,12 +149,6 @@ img {
   background-color: #ffffff;
   flex-grow: 1;
 }
-
-.main-portfolio {
-  width: 1440px;
-  height: 2076px;
-  background-color: #ffffff;
-}
 .dark-section {
   background-color: #2e2f42;
   padding: 188px 0;
@@ -155,10 +166,9 @@ img {
 }
 .ttl_one {
   max-width: 496px;
-  height: 120px;
-  padding-top: 188px;
-  padding-bottom: 48px;
-  margin: 0 auto;
+  margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 .button {
@@ -211,6 +221,8 @@ img {
 
 .text-list {
   display: flex;
+  margin: 0;
+  padding-left: 0;
   flex-direction: row;
   gap: 24px;
 }
@@ -237,7 +249,6 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-top: 8px;
 }
 .text-list {
   display: flex;
@@ -271,9 +282,6 @@ img {
 /* Fourth section */
 
 .prof-section {
-  width: 1440px;
-  height: 732px;
-  flex-shrink: 0;
   background-color: var(--cloud);
   padding: 120px 0;
 }
@@ -284,15 +292,7 @@ img {
 }
 .team-card {
   display: flex;
-  padding-bottom: 0px;
-  justify-content: center;
-  align-items: center;
   gap: 24px;
-  background-color: var(--white);
-  list-style: none;
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .card-description {
   padding: 32px 0;
@@ -305,30 +305,16 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  margin: 0;
   margin-bottom: 8px;
-  display: flex;
-  width: 232px;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
 }
 .text-spot {
   color: var(--slate);
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-top: 8px;
-  display: flex;
-  width: 232px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
 }
 
 /* Main Portfolio Section */
@@ -434,6 +420,8 @@ img {
 
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .card-list {
   display: flex;
@@ -455,17 +443,14 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 .ttl {
   color: var(--navy-blue);
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  width: 290px;
 }
 
 .section {
@@ -501,11 +486,6 @@ img {
   margin-right: 76px;
   display: inline-block;
   margin-bottom: 16px;
-  margin-left: 156px;
-  width: 71px;
-  height: 21px;
-  flex-direction: column;
-  justify-content: start;
 }
 .studio-link {
   color: #f4f4fd;
@@ -519,8 +499,6 @@ img {
 }
 .text-footer {
   width: 264px;
-  height: 72px;
-  margin-left: 156px;
 }
 .text-footer {
   color: var(--cloud);
